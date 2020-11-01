@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB3596FD254DDD6200974292 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3596FC254DDD6200974292 /* Person.swift */; };
+		FB359700254DDE2300974292 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3596FF254DDE2300974292 /* DataManager.swift */; };
 		FB35A8E42544242D00359FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35A8E32544242D00359FB3 /* AppDelegate.swift */; };
 		FB35A8E62544242D00359FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35A8E52544242D00359FB3 /* SceneDelegate.swift */; };
 		FB35A8EB2544242D00359FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB35A8E92544242D00359FB3 /* Main.storyboard */; };
 		FB35A8ED2544242F00359FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB35A8EC2544242F00359FB3 /* Assets.xcassets */; };
 		FB35A8F02544242F00359FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB35A8EE2544242F00359FB3 /* LaunchScreen.storyboard */; };
 		FB35A8FA254425D600359FB3 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35A8F9254425D600359FB3 /* ContactViewController.swift */; };
+		FB35A8FD25442CFF00359FB3 /* ContactVerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35A8FC25442CFF00359FB3 /* ContactVerTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB3596FC254DDD6200974292 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FB3596FF254DDE2300974292 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		FB35A8E02544242D00359FB3 /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB35A8E32544242D00359FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB35A8E52544242D00359FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		FB35A8EF2544242F00359FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB35A8F12544242F00359FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB35A8F9254425D600359FB3 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		FB35A8FC25442CFF00359FB3 /* ContactVerTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVerTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				FB35A8E32544242D00359FB3 /* AppDelegate.swift */,
 				FB35A8E52544242D00359FB3 /* SceneDelegate.swift */,
 				FB35A8E92544242D00359FB3 /* Main.storyboard */,
+				FB3596FC254DDD6200974292 /* Person.swift */,
+				FB3596FF254DDE2300974292 /* DataManager.swift */,
 				FB35A8F9254425D600359FB3 /* ContactViewController.swift */,
+				FB35A8FC25442CFF00359FB3 /* ContactVerTwoViewController.swift */,
 				FB35A8EC2544242F00359FB3 /* Assets.xcassets */,
 				FB35A8EE2544242F00359FB3 /* LaunchScreen.storyboard */,
 				FB35A8F12544242F00359FB3 /* Info.plist */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3596FD254DDD6200974292 /* Person.swift in Sources */,
+				FB359700254DDE2300974292 /* DataManager.swift in Sources */,
 				FB35A8E42544242D00359FB3 /* AppDelegate.swift in Sources */,
 				FB35A8E62544242D00359FB3 /* SceneDelegate.swift in Sources */,
+				FB35A8FD25442CFF00359FB3 /* ContactVerTwoViewController.swift in Sources */,
 				FB35A8FA254425D600359FB3 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
