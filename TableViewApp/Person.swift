@@ -15,7 +15,7 @@ struct Person {
     let phoneNumber: String
     
     
-    static func getPerson() -> [Person] {
+    static func getPersons() -> [Person] {
         
         var persons: [Person] = []
         
@@ -24,7 +24,7 @@ struct Person {
         let emails = DataManager.shared.emails.shuffled()
         let phones = DataManager.shared.phones.shuffled()
         
-        for index in 0...names.count {
+        for index in 0..<names.count {
             let person = Person(name: names[index], surName: surNames[index],
                                 email: emails[index], phoneNumber: phones[index])
             
